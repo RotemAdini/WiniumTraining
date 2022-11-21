@@ -21,6 +21,8 @@ public class clacTest {
         driver.findElement(By.id("num2Button")).click();
         driver.findElement(By.id("num2Button")).click();
         driver.findElement(By.id("equalButton")).click();
+//        driver.findElement(By.id("equalButton")).click();
+//
         System.out.println(driver.findElement(By.id("CalculatorResults")).getAttribute("Name"));
 //        int sum = 87-32;
 //        System.out.println("CalculatorResults"+":"+sum);
